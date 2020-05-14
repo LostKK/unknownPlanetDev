@@ -1,0 +1,13 @@
+com\kk\pojo\Bgm.class
+com\kk\pojo\SearchRecords.class
+com\kk\pojo\vo\VideosVO.class
+com\kk\pojo\UsersLikeVideos.class
+com\kk\pojo\Word.class
+com\kk\pojo\vo\PublisherVideo.class
+com\kk\pojo\UsersFans.class
+com\kk\pojo\Videos.class
+com\kk\pojo\UsersReport.class
+com\kk\pojo\vo\UsersVO.class
+com\kk\pojo\vo\CommentsVO.class
+com\kk\pojo\Comments.class
+com\kk\pojo\Users.class

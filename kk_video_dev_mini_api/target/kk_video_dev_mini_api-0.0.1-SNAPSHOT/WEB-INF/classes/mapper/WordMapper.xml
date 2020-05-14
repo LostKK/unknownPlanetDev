@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.kk.mapper.WordMapper" >
+  <resultMap id="BaseResultMap" type="com.kk.pojo.Word" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="words" property="words" jdbcType="VARCHAR" />
+    <result column="writter" property="writter" jdbcType="VARCHAR" />
+    <result column="pic_path" property="picPath" jdbcType="VARCHAR" />
+    <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
+  </resultMap>
+  
+  <select id="queryMaxWord" resultMap="BaseResultMap" parameterType="String">
+      select * from word where create_time = (select max(create_time) from word )
+  </select>
+</mapper>

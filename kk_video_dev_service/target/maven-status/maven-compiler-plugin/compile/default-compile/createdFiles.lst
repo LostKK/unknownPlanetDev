@@ -1,0 +1,8 @@
+com\kk\service\impl\BgmServiceImpl.class
+com\kk\service\impl\WordServiceImpl.class
+com\kk\service\UserService.class
+com\kk\service\impl\UserServiceImpl.class
+com\kk\service\impl\VideoServiceImpl.class
+com\kk\service\VideoService.class
+com\kk\service\WordService.class
+com\kk\service\BgmService.class
